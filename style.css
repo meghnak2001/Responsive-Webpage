@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html{
+  scroll-behavior: smooth;
+}
+.join{
+    display:flex;
+    background-color:rgb(0, 0, 0);
+    
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 200%;
+    width: 13rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);   
+    cursor: pointer;
+    
+}
+
+.logo{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 8rem;
+    padding-top: 25px ;
+}
+
+.Options{
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+.option1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+}   
+
+.button{
+    width: 10rem;
+    height: 3rem;
+    border: 2px transparent;
+    background-color:  rgb(0, 0, 0);
+   
+
+}
+.button:hover{
+    width: 10rem;
+    border: 3px solid rgb(0, 0, 0);
+    background-color:  rgb(72, 143, 202);
+    
+
+
+}
+
+.Dash{
+    height: 700px;
+    width: 100%;
+    background-image: url(sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-size: cover;
+}
+.dash1{
+    height: 111px;
+    color: rgb(40, 42, 44);
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(45, 42, 42);;
+    
+}
+
+.dash-content{
+    font-size: 35px;
+    font-weight: 700;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.dash2{
+    width: 700px;
+    height: max-content;
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.Home{
+  height: 750px;
+  
+}
+
+.home-heading{
+  background-color: black;
+  color: whitesmoke ;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.card-img-top1{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+.card-img-top2{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.home-content{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.card-body2{
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.card-body{
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+}
+
+.btn{
+  font-size: larger;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(53, 97, 185);
+  color: aliceblue;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.card1{
+  border: 3px solid rgb(219, 218, 218);
+  margin-left: 20px;
+  margin-right: 40px;
+
+}
+.card2{
+  border: 3px solid rgb(232, 228, 228);
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.Contact{
+  height: 750px;
+}
+.input-contact{
+  height: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+.Contact-heading{
+  background-color: black;
+  color: whitesmoke ;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.feedback-input {
+  color:rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #000000; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#000000; }
+
+.info-heading{
+  background-color: black;
+  color: whitesmoke ;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.info{
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      
+}
+.para{
+  width: 500px;
+  margin: 120px;
+  font-weight: 600;
+
+}
+
+.guide-heading{
+  background-color: black;
+  color: whitesmoke ;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.gui{
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      
+}
+.g-para{
+  width: 500px;
+  margin: 85px;
+  font-weight: 600;
+  
+}
+
+.copyright{
+  background-color: black;
+  color: whitesmoke ;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
